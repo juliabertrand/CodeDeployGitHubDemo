@@ -1,0 +1,8 @@
+mkdir /tmp/CodeDeployGitHubDemo
+cd /tmp/CodeDeployGitHubDemo
+touch README.md
+git init
+git add README.md
+git commit -m "My first commit"
+git remote add origin https://github.com/juliabertrand/CodeDeployGitHubDemo.git
+git push -u origin master
